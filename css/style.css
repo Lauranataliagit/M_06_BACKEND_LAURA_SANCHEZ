@@ -1,0 +1,152 @@
+/* Estilos generales */
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+  color: #efebeb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #151515;
+  padding: 40px;
+}
+
+.illus {
+  max-width: 300px;
+}
+
+.title {
+  margin-left: 40px;
+}
+
+.title h1,
+.title h2,
+.title p {
+  margin: 0;
+}
+
+.title a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.title a:hover {
+  background-color: #040404;
+}
+
+/* Estilos para la sección de descripción */
+#section-description {
+  color: #efebeb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #e56307;
+}
+
+.illustration img {
+  padding: 20px;
+  max-width: 400px;
+  float: right;
+  box-shadow: 0 0 10px rgba(241, 244, 244, 0.500);
+}
+
+.descript {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.descript h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.descript p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la sección de respuestas */
+#section-respuestas {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #050404;
+}
+
+#botones {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-right: 40px;
+}
+
+#img_menu {
+  flex-basis: 50%;
+  text-align: right;
+}
+
+#img_menu img {
+  max-width: 400px;
+
+}
+
+#botones a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#botones a:hover {
+  background-color: #0a0a0a;
+}
+
+.illustration img {
+  max-width: 300px;
+  float: right;
+}
+
+.descript {
+  flex: 1;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.description h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.description p {
+  font-size: 18px;
+  margin: 0;
+}
