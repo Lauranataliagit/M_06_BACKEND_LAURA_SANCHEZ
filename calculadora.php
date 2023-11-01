@@ -65,7 +65,7 @@
                 break;
         }
 # Se agrega mas contenido a string
-        echo "<h1>El Resultado de la Operación $tipo es: ".$result."</h1>";
+        echo "<h1>El Resultado de la operación $tipo es: ".$result."</h1>";
         #echo "<script>alert(".$result.");</script>";
 
     }
